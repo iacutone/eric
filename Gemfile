@@ -28,7 +28,6 @@ group :development do
   gem 'pry'
   gem 'quiet_assets'
   gem 'spring'
-  gem 'thin'
   gem 'xray-rails'
 end
 
