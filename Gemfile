@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.3'
 
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'figaro'
 gem 'foursquare2'
 gem 'github_api'
 gem 'jbuilder', '~> 2.0'

@@ -3,7 +3,7 @@ class FoursquareApi
   attr_reader :client
   
   def initialize
-    @client = Foursquare2::Client.new(:oauth_token => Rails.application.secrets.foursquare_access_token, :api_version => '20131016')
+    @client = Foursquare2::Client.new(:oauth_token => ENV['foursquare_access_token'], :api_version => '20131016')
   end
   
   def daily

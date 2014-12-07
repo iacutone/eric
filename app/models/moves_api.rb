@@ -2,7 +2,7 @@ class MovesApi
   attr_reader :client
   
   def initialize
-    @client = Moves::Client.new(Rails.application.secrets.moves_access_token)
+    @client = Moves::Client.new(ENV['moves_access_token'])
   end
   
   def daily
